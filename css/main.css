@@ -1,0 +1,244 @@
+/*************************************************Genericas*************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif&display=swap');
+.blue_text{
+    color: #0066FF;
+}
+.blue_btn{
+    width: 213px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #0066FF;
+}
+.my-40{
+    margin: 40px 0px;
+}
+.small-text{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+}
+/*************************************************Genericas*************************************************/
+
+/*************************************************Header*************************************************/
+body {
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+    padding: 0;
+    margin: 0;
+    max-width: 1920px;
+    background-color: #E8E8E8;
+}
+/*************************************************Header*************************************************/
+
+/*************************************************Nav-menu*************************************************/
+.nav-li {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.navbar-library {
+    height: 75px;
+    z-index: 999;
+}
+.navbar-nav li:hover {
+    border-bottom: 3px solid #0066FF;
+}
+/*************************************************Nav-menu*************************************************/
+
+/*************************************************Main*************************************************/
+.blue_line_library_cover{
+    position: absolute;
+    top: 395px;
+    left: 280px;
+    width: 5px;
+    height: 50px;
+    background-color: #0066FF;
+}
+.btn_library_cover{
+    position: absolute;
+    top: 520px;
+}
+.h120gray{
+    height: 120px;
+    background-color: #E8E8E8;
+}
+.img_book_slider{
+    width: 160px;
+    height: 250px;
+}
+.img_library_cover{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.img_certification{
+    width: 590px;
+    height: 510px;
+    object-fit: cover;
+}
+.img_taller{
+    /*height: 250px;*/
+    width: 350px;
+    object-fit: fill;
+}
+.shape_container{
+    padding: 20px;
+    height: 550px;
+    width: 1200px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: auto;
+}
+.service_card{
+    width: 285px;
+    height: 300px;
+    margin-top: 50px;
+}
+.service_icon{
+    width: 80px;
+}
+.title{
+    min-height: 56px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1;
+}
+.service_more{
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.services_container{
+    padding: 10px;
+    width: 100%;
+    height: 900px;
+    background-color: #181757;
+    position: relative;
+}
+.subtitle_library_cover{
+    position: absolute;
+    top: 440px;
+    left: 330px;
+    font-size: 32px;
+}
+.title_container{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'PT Serif', serif;
+}
+.title_library_cover{
+    position: absolute;
+    top: 370px;
+    left: 330px;
+    font-size: 60px;
+    font-family: 'PT Serif', serif;
+}
+.title_services{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'PT Serif', serif;
+}
+.virtual_library_cover{
+    height: 632px;
+    width: 100%;
+    position: relative;
+}
+.workshop_container{
+    padding: 20px;
+    height: 650px;
+    width: 1200px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: auto;
+}
+.workshop_text{
+    min-height: 60px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #353E47;
+}
+.workshop_title{
+    min-height: 84px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1;
+}
+.workshop_small_text{
+    font-weight: 400;
+    font-size: 12px;
+    color: #37485C;
+}
+/*************************************************Main*************************************************/
+
+/*************************************************Footer*************************************************/
+footer{
+    background-color: #181757;
+    padding: 50px;
+}
+.footer_nav{
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer_title{
+    min-height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer_text{
+    font-weight: 400;
+    font-size: 13px;
+}
+/*************************************************Footer*************************************************/
+
+/*************************************************Mobile*************************************************/
+@media screen and (max-width: 480px){
+
+}
+/*************************************************Mobile*************************************************/
+
+/*************************************************Tablet*************************************************/
+@media screen and (min-width: 481px) and (max-width: 768px){
+    
+}
+/*************************************************Tablet*************************************************/
+
+/*************************************************Laptop*************************************************/
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    
+}
+/*************************************************Laptop*************************************************/
+
+/*************************************************Desktop*************************************************/
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    
+}
+/*************************************************Desktop*************************************************/
+
+/*************************************************Tv*************************************************/
+@media screen and (min-width: 1201px) and (max-width: 1920px){
+    
+}
+/*************************************************Tv*************************************************/
+
+/*************************************************Xl*************************************************/
+@media screen and (min-width: 1921px){
+    .img_library{
+        width: auto;
+        height: auto;
+    }
+    .virtual_library{
+        height: 900px;
+        position: relative;
+    }
+}
+/*************************************************Xl*************************************************/
