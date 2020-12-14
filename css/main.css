@@ -141,7 +141,7 @@ body {
 }
 .title_container_workshops{
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
     font-family: 'Montserrat';
 }
 .title_library_cover{
@@ -180,7 +180,7 @@ body {
     min-height: 84px;
     margin-top: 10px;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 18px;
     line-height: 1;
     font-family: 'Montserrat';
 }
