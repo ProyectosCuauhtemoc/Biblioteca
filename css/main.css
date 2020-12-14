@@ -125,7 +125,7 @@ body {
     padding: 10px;
     width: 100%;
     height: 900px;
-    background-color: #181757;
+    background-color: #37485c;
     position: relative;
 }
 .subtitle_library_cover{
@@ -194,7 +194,7 @@ body {
 
 /*************************************************Footer*************************************************/
 footer{
-    background-color: #181757;
+    background-color: #37485c;
     padding: 50px;
 }
 .footer_nav{
