@@ -142,6 +142,7 @@ body {
 .title_container_workshops{
     font-size: 40px;
     font-weight: 700;
+    margin-top: 20px;
     font-family: 'Montserrat';
 }
 .title_library_cover{
@@ -177,7 +178,7 @@ body {
     color: #353E47;
 }
 .workshop_title{
-    min-height: 84px;
+    min-height: 64px;
     margin-top: 10px;
     font-weight: 600;
     font-size: 18px;
