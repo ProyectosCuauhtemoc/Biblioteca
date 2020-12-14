@@ -1,6 +1,7 @@
 /*************************************************Genericas*************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
 
 .blue_text{
     color: #0066FF;
@@ -138,6 +139,9 @@ body {
     font-weight: 600;
     font-family: 'PT Serif', serif;
 }
+.title_container_workshops{
+    font-family: 'Montserrat';
+}
 .title_library_cover{
     position: absolute;
     top: 370px;
@@ -176,6 +180,7 @@ body {
     font-weight: 600;
     font-size: 28px;
     line-height: 1;
+    font-family: 'Montserrat';
 }
 .workshop_small_text{
     font-family: 'Source Sans Pro';
