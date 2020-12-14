@@ -140,6 +140,8 @@ body {
     font-family: 'PT Serif', serif;
 }
 .title_container_workshops{
+    font-size: 40px;
+    font-weight: 600;
     font-family: 'Montserrat';
 }
 .title_library_cover{
