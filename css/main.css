@@ -1,5 +1,7 @@
 /*************************************************Genericas*************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 .blue_text{
     color: #0066FF;
 }
@@ -41,6 +43,7 @@ body {
 
 /*************************************************Nav-menu*************************************************/
 .nav-li {
+    font-family: 'Source Sans Pro';
     font-size: 13px;
     margin-top: 20px;
 }
@@ -161,6 +164,7 @@ body {
     margin: auto;
 }
 .workshop_text{
+    font-family: 'Source Sans Pro';
     min-height: 60px;
     font-weight: 400;
     font-size: 13px;
